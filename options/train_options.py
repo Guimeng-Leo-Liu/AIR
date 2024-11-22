@@ -492,7 +492,7 @@ class TrainOptions(object):
             "--prompt_distance_iter", type=int, default=5, help="total training iterations"
         )
 
-        self.parser.add_argument("--prompt_lr", type=float, default=0.001, help="learning rate")
+        self.parser.add_argument("--prompt_lr", type=float, default=0.002, help="learning rate")
 
 
 
